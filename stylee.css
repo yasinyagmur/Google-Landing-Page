@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;  
+    
+}
+header{
+    padding: 15px;
+    line-height: 36px;
+}
+.header__left{
+    float: left;
+    margin-top: 10px;
+}
+.header__right{
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #919090;
+    padding: 0.5rem;
+}
+.header__rigt--apicon{
+    vertical-align: middle;
+
+}
+.header__right--btn{
+    border: none;
+    background-color:#4285F4 ;
+    color: white;
+    width: 96px;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.header__right--btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 3px 5px rgb(211, 211, 211);
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    /* display: flex; */
+    margin-top: 200px;
+    text-align: center;
+
+}
+.main__logo{
+    
+}
+.main__search-bar{
+
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 496px;
+    height: 39px;
+    margin: auto;
+}
+.main__search-bar--input{
+    width: 380px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top: 2px;
+
+}
+.main__searc-bar--magnifier{
+    width: 30px;
+    vertical-align: middle;
+
+}
+.main__search-bar--mic{
+    width: 15px;
+    vertical-align: middle;
+}
+
+.main__buttons--left,
+.main__buttons--right{
+    width: 146px;
+    /* height: 36px; */
+    border: none;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    margin: 25px 0;
+    padding: 10px ;
+}
+.main__buttons--left:hover,
+.main__buttons--right:hover{
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(211, 211, 211)
+    1px 1px 10px;
+    cursor: pointer;
+    
+}
+.main__languages a:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #F2F2F2;
+    color: #5F6368;
+    width: 100%;
+}
+.footer__country{
+    border-bottom: #5F6368;
+    font-size: 15px;
+    padding:15px 30px ;
+    height: 16.5px;
+}
+.footer__bottom--left{
+    float: left;
+    padding: 17px;
+
+}
+.footer__bottom--right{
+    float: right;
+    padding: 17px;
+}
+
