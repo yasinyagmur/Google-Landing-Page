@@ -1,163 +1,134 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-a{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    color: black;
 }
-a:hover{
-    cursor: pointer;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;  
+    
 }
 header{
-    font-size: 16px;
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 10px;
+    padding: 15px;
+    line-height: 36px;
 }
-#nav-top-left{
+.header__left{
     float: left;
-    word-spacing: 1.5rem;
-    padding: 7px;
+    margin-top: 10px;
 }
-#nav-top-right{
+.header__right{
     float: right;
-    word-spacing: 1.5rem;
 }
-#icon{
-    width: 2.3rem;
-    position: relative;
-    top: 10px;
+ul li{
+    display: inline-block;
 }
-#icon:hover{
-    cursor: pointer;
+ul li a{
+    color: #919090;
+    padding: 0.5rem;
+}
+.header__rigt--apicon{
+    vertical-align: middle;
 
 }
-#sign-in{
-    width:70px;
-    height: 30px;
+.header__right--btn{
     border: none;
     background-color:#4285F4 ;
     color: white;
-}
-#sign-in:hover{
-    cursor: pointer;
-}
-#google-logo{
-    position: absolute;
-    top: 38%;
-    left: 40%;
-}
-#google-png{
-    width: 400px;
-}
-#Sbar{
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    
-}
-#search-bar{
-    width: 660px;
-    height: 60px;
-    border: 1px solid #d3d3d3;
-    border-radius: 30px;    
-}
-#mercek{
-    width: 30px;
-}
-#div-mercek{
-    position: absolute;
-    top: 51.5%;
-    left: 34%;
-    z-index: 1;
-}
-#mic{
-    height: 20px;
-    width: 20px;
-}
-#div-mic{
-    position: absolute;
-    top: 51.5%;
-    right: 32%;
-}
-#gsearch{
-    height: 45px;
-    width: 180px;
-    border: 1px solid #D3D3D3;
+    width: 96px;
+    height: 36px;
     border-radius: 5px;
-    color: #919090;
+    font-weight: 600;
 }
-#button-search{
-    position: absolute;
-    top: 58%;
-    left: 40%;
-}
-#gsearch:hover{
+.header__right--btn:hover{
     cursor: pointer;
+    box-shadow: 2px 3px 5px rgb(211, 211, 211);
 }
-#lucky{
-    height: 45px;
-    width: 180px;
-    border: 1px solid #D3D3D3;
-    border-radius: 5px;
-    color: #919090;
-
-}
-#lucky:hover{
-    cursor: pointer;
-    
-}
-#button-lucky{
-    position: absolute;
-    top: 58%;
-    right: 37%;
-}
-#other{
-    font-size: 20px;
-    position: absolute;
-    top: 63%;
-    left:40%;
-}
-#eng{
+ul li a:hover{
     text-decoration: underline;
-    color: #000080;
 }
-footer{
-    width: 100%;
-    height: 7rem;    
+
+.main{
+    /* display: flex; */
+    margin-top: 200px;
+    text-align: center;
+
+}
+.main__logo{
+    width: 20%;
+    
+}
+.main__search-bar{
+
+    border: 1px solid #D3D3D3;
+    border-radius: 20px;
+    width: 496px;
+    height: 39px;
+    margin: auto;
+}
+.main__search-bar--input{
+    width: 380px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    height: 30px;
+    margin-top: 2px;
+
+}
+.main__searc-bar--magnifier{
+    width: 30px;
+    vertical-align: middle;
+
+}
+.main__search-bar--mic{
+    width: 15px;
+    vertical-align: middle;
+}
+
+.main__buttons--left,
+.main__buttons--right{
+    width: 146px;
+    /* height: 36px; */
+    border: none;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    margin: 25px 0;
+    padding: 10px ;
+}
+.main__buttons--left:hover,
+.main__buttons--right:hover{
+    border: 1px solid #d3d3d3;
+    box-shadow: rgb(211, 211, 211)
+    1px 1px 10px;
+    cursor: pointer;
+    
+}
+.main__languages a:hover{
+    text-decoration: underline;
+}
+.footer{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     background-color: #F2F2F2;
-    font-size: 1.3rem;
     color: #5F6368;
+    width: 100%;
 }
-#turkey{
-    margin: 1rem;
-    line-height: 30px;
-    border-bottom: 1px solid #E4E4E4;
+.footer__country{
+    border-bottom: 0.3px solid #dadce0;
+    font-size: 15px;
+    padding:15px 30px ;
+    height: 50px;
 }
-#nav-left-buttom{
+.footer__bottom{
+    height: 2.5rem;
+}
+.footer__bottom--left{
     float: left;
-    word-spacing: 1.5rem;
-    padding: 10px;
-    
-}
-#nav-left-buttom>a{
-    color: #5F6368;
+    padding: 17px;
 
 }
-#nav-right-buttom{
+.footer__bottom--right{
     float: right;
-    word-spacing: 1.3rem;
-    margin-right: 20px ;
-    padding: 10px 20px 10px 0px;
-    
+    padding: 17px;
 }
-#nav-right-buttom>a{
-    color: #5F6368;
 
-}

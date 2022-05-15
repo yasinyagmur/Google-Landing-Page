@@ -6,77 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Landing Page</title>
     <link rel="icon" href="./images/gfavicon.png" type="img-title" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav id="nav-top-left">
-        <a href="">About</a>
-        <a href="">Store</a>
-      </nav>
-      <nav id="nav-top-right">
-        <a href="">Gmail</a>
-        <a href="">Images</a>
-        <img src="./images/appicon.png" alt="appicon" id="icon" />
-        <button type="submit" id="sign-in">Sign In</button>
-      </nav>
+    <header class="header">
+      <ul class="header__left">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+      </ul>
+      <ul class="header__right">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li>
+          <a href="#"
+            ><img
+              title="Google Apps"
+              class="header__rigt--apicon"
+              src="./images/appicon.png"
+              alt="App Icon"
+          /></a>
+        </li>
+        <li><button class="header__right--btn">Sign In</button></li>
+      </ul>
     </header>
-    <div id="google-logo">
-      <img src="./images/googlelogo.png" alt="google-logo" id="google-png" />
-    </div>
-    <div id="div-mercek">
-      <a href
-        ><img
-          src="./images/Magnifying_glass_icon.png"
-          alt="mercek"
-          id="mercek"
+    <main class="main">
+      <img class="main__logo" src="./images/googlelogo.png" alt="" srcset="" />
+      <div class="main__search-bar">
+        <img
+          class="main__searc-bar--magnifier"
+          src="./images/magnifying_glass.jpg"
+          alt=""
+          srcset=""
         />
-      </a>
-    </div>
-    <div id="Sbar">
-        <input type="search" name="google-search"id="search-bar"/>
-    </div>
-    <div id="div-mic">
-        <a href="" class="class-mic">
-            <img src="./images/google_microphone.png" alt="microphone" style="height: 20px;" id="mic">
+        <input type="search" class="main__search-bar--input" />
+        <a href="#">
+          <img
+            class="main__search-bar--mic"
+            src="./images/google_microphone.png"
+            alt="Microphone"
+            srcset=""
+            
+          />
         </a>
+      </div>
+      <div class="main__buttons">
+          <button class="main__buttons--left">Google Search</button>
+          <button class="main__buttons--right">I'm Feeling Lucky</button>
+      </div>
+      <div class="main__languages">
+      <p>Other Languages you can use : <a href="#">English</a></p>
     </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__country">Turkey</div>
+        <div class="footer__bottom">
+            <ul class="footer__bottom--left">
+                <li><a href="#"></a>Advertising</li>
+                <li><a href="#"></a>Business</li>
+                <li><a href="#"></a>How Search Works</li>
+            </ul>
+            <ul class="footer__bottom--right">
+                <li><a href="#"></a>Privacy</li>
+                <li><a href="#"></a>Terms</li>
+                <li><a href="#"></a>How Settings Works</li>
+            </ul>
 
-    <div id="button-search">
-        <button type="submit" id="gsearch">Google Search</button>
-    </div>
-
-    <div id="button-lucky">
-        <button type="submit" id="lucky">I'm Feeling Lucky</button>
-    </div>
-    <p id="other">Other Languages you can use Google : <a href="" id="eng">English</a></p>
-
-    <footer>
-        <div id="turkey">
-            <p>Turkey</p>
         </div>
 
-        <nav id="nav-left-buttom" >
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-           <a href=""> <span style="word-spacing: normal;">How Search Works</span></a>
-        </nav>
-        <nav id="nav-right-buttom" >
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
-        </nav>
-
     </footer>
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
